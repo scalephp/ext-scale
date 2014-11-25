@@ -46,10 +46,10 @@ interface BuilderInterface
     /**
      *
      * @param string   $name
-     * @param Closure $builder
+     * @param \Closure $builder
      * @return mixed
      */
-    public function setBuilder(string $name, var $builder);
+    public function setBuilder(string $name, <\Closure> $builder);
 
     /**
      *

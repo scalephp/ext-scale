@@ -31,9 +31,4 @@ class Application
     {
         this->executor->prepare()->execute();
     }
-
-    public function say(var text)
-    {
-        echo text;
-    }
 }
